@@ -1,0 +1,85 @@
+body {
+    background-color: hsl(0, 100%, 0%);
+    font-family: 'Jost', sans-serif;
+    /*text-align: center;*/
+    color: white;
+}
+
+#title {
+    font-size: 70px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    background-color: hsl(0, 0%, 70%);
+    margin: 0 10px 0 10px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#main {
+    display: grid;
+    background-color: hsl(0, 0%, 70%, 0.2);
+    margin: 0 300px 0 300px;
+    border-radius: 10px;
+}
+
+#timeline {
+    margin: 0 300px 0 300px;
+}
+
+p {
+  font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}
+
+#tribute-info {
+    padding: 0;
+    /*margin: auto;*/
+}
+
+.info {
+    border-radius: 5px;
+}
+
+.year {
+    display: flex;
+    background-color: hsl(0, 0%, 60%);
+    margin-bottom: 10px;
+}
+
+.movie {
+    background-color: hsl(299, 52%, 47%);
+    /*border-left: 3px solid green;
+    height: auto;
+    text-align: center;*/
+}
+
+.movie:before {
+    content: "Movie: ";
+}
+
+.nomination {
+    background-color: hsl(61, 52%, 33%);
+    /*border-left: 3px solid green;
+    height: auto;
+    text-align: center;*/
+}
+
+.nomination:before {
+    content: "Nomination: ";
+}
+
+.personal {
+    background-color: hsl(0, 0%, 30%);
+}
