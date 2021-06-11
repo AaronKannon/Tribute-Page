@@ -71,7 +71,7 @@ li {
 }
 
 .nomination {
-    background-color: #5B5C1D;
+    background-color: #1C653D;
     /*border-left: 3px solid green;
     height: auto;
     text-align: center;*/
@@ -82,11 +82,16 @@ li {
 }
 
 .personal {
-    background-color: hsl(0, 0%, 30%);
+    background-color: #095AA2;
 }
 
+.personal:before {
+    content: "Personal: ";
+}
+
+
 .award {
-    background-color: hsl(0, 0%, 30%);
+    background-color: #705400;
 }
 
 .award:before {
@@ -94,7 +99,7 @@ li {
 }
 
 .tv {
-    background-color: hsl(0, 0%, 30%);
+    background-color: #3E295A;
 }
 
 .tv:before {
@@ -102,7 +107,7 @@ li {
 }
 
 .child {
-    background-color: hsl(0, 0%, 30%);
+    background-color: #5A172E;
 }
 
 .child:before {
