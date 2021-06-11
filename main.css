@@ -26,7 +26,7 @@ img {
 
 #main {
     display: grid;
-    background-color: hsl(0, 0%, 70%, 0.2);
+    background-color: #767676;
     margin: 0 300px 0 300px;
     border-radius: 10px;
 }
@@ -54,12 +54,13 @@ li {
 
 .year {
     display: flex;
-    background-color: hsl(0, 0%, 60%);
+    background-color: #595959;
     margin-bottom: 10px;
+
 }
 
 .movie {
-    background-color: hsl(299, 52%, 47%);
+    background-color: #902E92;
     /*border-left: 3px solid green;
     height: auto;
     text-align: center;*/
@@ -70,7 +71,7 @@ li {
 }
 
 .nomination {
-    background-color: hsl(61, 52%, 33%);
+    background-color: #5B5C1D;
     /*border-left: 3px solid green;
     height: auto;
     text-align: center;*/
@@ -82,4 +83,52 @@ li {
 
 .personal {
     background-color: hsl(0, 0%, 30%);
+}
+
+.award {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.award:before {
+    content: "Award: ";
+}
+
+.tv {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.tv:before {
+    content: "TV: ";
+}
+
+.child {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.child:before {
+    content: "Child: ";
+}
+
+.relationship {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.relationship:before {
+    content: "Relationship: ";
+}
+
+.marriage {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.relationship:before {
+    content: "Relationship: ";
+}
+
+.birth {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.relationship:before {
+    content: "Birth: ";
 }
