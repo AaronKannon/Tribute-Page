@@ -20,23 +20,42 @@ body {
     border-radius: 10px;
 }
 
-img {
+#image {
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 #main {
-    display: grid;
     background-color: #767676;
-    margin: 0 300px 0 300px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    /*margin: 0 300px 0 300px;*/
     border-radius: 10px;
 }
 
 #timeline {
-    margin: 0 300px 0 300px;
+    width: 50%;
+    margin-left: 25%;
+    /*padding: 0 300px 0 300px;*/
+    /*margin: 0 300px 0 300px;*/
 }
 
-p {
-  font-weight: 600;
+.ynumber {
+    font-weight: 600;
+    align-items: center;
+    height: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
 }
 
 li {
@@ -44,18 +63,21 @@ li {
 }
 
 #tribute-info {
+    display: flex;
+    flex-direction: column;
     padding: 0;
-    /*margin: auto;*/
 }
 
 .info {
     border-radius: 5px;
+    /*Botar margem entre as infos (talvez)*/
 }
 
 .year {
     display: flex;
     background-color: #595959;
     margin-bottom: 10px;
+    align-items: center;
     /*border: 1px solid black;*/
 }
 
@@ -66,10 +88,6 @@ li {
     text-align: center;*/
 }
 
-.movie:before {
-    content: "Movie: ";
-}
-
 .nomination {
     background-color: #1C653D;
     /*border-left: 3px solid green;
@@ -77,63 +95,35 @@ li {
     text-align: center;*/
 }
 
-.nomination:before {
-    content: "Nomination: ";
-}
-
 .personal {
     background-color: #095AA2;
 }
 
-.personal:before {
-    content: "Personal: ";
-}
-
-
 .award {
     background-color: #705400;
-}
-
-.award:before {
-    content: "Award: ";
 }
 
 .tv {
     background-color: #3E295A;
 }
 
-.tv:before {
-    content: "TV: ";
-}
-
 .child {
     background-color: #5A172E;
-}
-
-.child:before {
-    content: "Child: ";
 }
 
 .relationship {
     background-color: #54072D;
 }
 
-.relationship:before {
-    content: "Relationship: ";
-}
-
 .marriage {
     background-color: #692D02;
-}
-
-.marriage:before {
-    content: "Marriage: ";
 }
 
 .birth {
     background-color: #A92619;
 }
 
-.birth:before {
-    content: "Birth: ";
+#morelink {
+    text-align: center;
+    padding-bottom: 10px;
 }
