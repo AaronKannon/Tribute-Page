@@ -1,3 +1,9 @@
+@media (max-width: 975px) {
+    #title {
+      font-size: 100vw;
+    }
+}
+
 body {
     background-color: hsl(0, 100%, 0%);
     font-family: 'Jost', sans-serif;
@@ -7,6 +13,7 @@ body {
 
 #title {
     font-size: 70px;
+    width: 50vw;
     padding-top: 10px;
     margin: auto;
     text-align: center;
@@ -83,16 +90,10 @@ li {
 
 .movie {
     background-color: #902E92;
-    /*border-left: 3px solid green;
-    height: auto;
-    text-align: center;*/
 }
 
 .nomination {
     background-color: #1C653D;
-    /*border-left: 3px solid green;
-    height: auto;
-    text-align: center;*/
 }
 
 .personal {
@@ -125,5 +126,5 @@ li {
 
 #morelink {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
